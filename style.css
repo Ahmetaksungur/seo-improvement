@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 45%;
+  margin: 0 auto;
+}
+.container h1 {
+  font-weight: bold;
+}
+.seo-group {
+  margin-bottom: 1.5rem;
+}
+.seo-group label {
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+.seo-group .seo-input {
+  display: block;
+  background: transparent;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 0.4rem;
+  outline: none;
+  width: -webkit-fill-available;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+.seo-group .seo-input:focus {
+  border: 2px solid #7451ff;
+}
+seo-progress {
+  width: 100%;
+  height: 7px;
+  background: #e5eaf1;
+  display: block;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+seo-progress span {
+  height: inherit;
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.25s;
+  max-width: 100%;
+}
+
+.snip-title {
+  font-size: 18px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #1a0dab;
+  font-weight: normal;
+  line-height: 1.58;
+  font-family: arial, sans-serif;
+}
+.snip-title:hover {
+  cursor: pointer;
+}
+
+.snip-url {
+  font-size: 14px;
+  color: #006621;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: normal;
+  line-height: 1.58;
+  font-family: arial, sans-serif;
+}
+
+.snip-description {
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  line-height: 1.58;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-family: arial, sans-serif;
+}
